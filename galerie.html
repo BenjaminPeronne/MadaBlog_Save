@@ -1,70 +1,76 @@
 <!DOCTYPE html>
 <html xmlns="//www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
 <head>
-<title>MadaMadaDane.Blog</title>
+	<title>MadaMadaDane.Blog</title>
 
-<meta charset="utf-8">
-<link rel="icon" type="image/png" href="/images/favicon.png" />
-<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css' />
-<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-<style type="text/css">
-.auto-style1 {
-	text-align: center;
-	margin-top: 55px;
-}
-</style>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="/images/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css' />
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	<style type="text/css">
+		.auto-style1 {
+			text-align: center;
+			margin-top: 55px;
+		}
+	</style>
 </head>
-<body>
-<!-- Entete -->
-<header class="l-header">
-<div class="header-container">
-<a href="#" class="header-icon" id="header-icon"></a>
-<a href="#">
-<img href="http://madablog.comxa.com" class="header-logo l-show" src="logo.png" alt="Logo">
-</a>
-<ul class="nav-ul">
-	
-<li><a href="index.html">Accueil</a></li>
-<li><a href="galerie.html">Galerie</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="https://www.facebook.com/profile.php?id=100013241347100">Contact</a></li>
 
-</header>
-</div>
-</ul>
-<!-- fin de l'entete -->
+<body>
+	<!-- Entete -->
+	<header class="l-header">
+		<div class="header-container">
+			<a href="#" class="header-icon" id="header-icon"></a>
+			<a href="#">
+				<img href="http://madablog.comxa.com" class="header-logo l-show" src="logo.png" alt="Logo">
+			</a>
+			<ul class="nav-ul">
+
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="galerie.html">Galerie</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100013241347100">Contact</a></li>
+
+	</header>
+	</div>
+	</ul>
+	<!-- fin de l'entete -->
 
 	<!-- fin du #menu -->
 
 
-		<!--// #Diaporama // //-->
-		&nbsp;<script language="JavaScript" type="text/javascript">
-<!--
-//chemin vers les images
-src = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"]
-//temp de chaque image
-duration = 10;
-//programme du Diaporama
-ads=[]; ct=0;
-function switchAd() {
-var n=(ct+1)%src.length;
-if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
-document["Ajout_Image"].src = ads[ct=n].src;
-}
-ads[n=(ct+1)%src.length] = new Image;
-ads[n].src = src[n];
-setTimeout("switchAd()",duration*1000);
-}
- onload = function(){
-if (document.images)
-switchAd();
-}
-//-->
-</script>
+	<!--// #Diaporama // //-->
+	&nbsp;<script language="JavaScript" type="text/javascript">
+		
+		//chemin vers les images
+		src = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"]
+		//temp de chaque image
+		duration = 10;
+		//programme du Diaporama
+		ads = [];
+		ct = 0;
+
+		function switchAd() {
+			var n = (ct + 1) % src.length;
+			if (ads[n] && (ads[n].complete || ads[n].complete == null)) {
+				document["Ajout_Image"].src = ads[ct = n].src;
+			}
+			ads[n = (ct + 1) % src.length] = new Image;
+			ads[n].src = src[n];
+			setTimeout("switchAd()", duration * 1000);
+		}
+		onload = function () {
+			if (document.images)
+				switchAd();
+		}
+		//
 	
-	<p class="auto-style1"><img alt="" height="250" class="arrondie1" name="Ajout_Image" src="image1.jpg" id="Ajout_Image" width="1195" /></p>
+	</script>
+
+	<p class="auto-style1"><img alt="" height="250" class="arrondie1" name="Ajout_Image" src="image1.jpg"
+			id="Ajout_Image" width="1195" /></p>
 	<!-- fin de l'entete -->
-   <!-- début du #page -->
+	<!-- début du #page -->
 	<div id="page">
 		<div id="page-bgtop">
 			<div id="page-bgbtm">
@@ -74,17 +80,20 @@ switchAd();
 						<p class="meta">Posted by <a href="#">Benjamin.p</a> on thuesday, December 11 2016
 							&nbsp;&bull;&nbsp; </a> &nbsp;&bull;&nbsp;</a></p>
 						<div class="videos">
-							<p "><video width="450px" height="350px" src="videos/PlanetFinal.mp4" controls></video></p>
+							<p "><video width=" 450px" height="350px" src="videos/PlanetFinal.mov" controls></video></p>
 						</div>
 					</div>
 
-                    <div class="post">
+					<div class="post">
 						<h2 class="title"><a href="#">Pinkzebra - We won't stop dreaming (Lyrics)</a></h2>
 						<p class="meta">Posted by <a href="#">Benjamin.p</a> on thuesday, November 16 2017
 							&nbsp;&bull;&nbsp; </a> &nbsp;&bull;&nbsp;</a></p>
 						<div class="videos">
-							<p "><video width="450px" height="350px" src="videos/final render.mov" controls></video></p>
-							<a href="https://www.musixmatch.com/lyrics/Pinkzebra-feat-Benji-Jackson/We-Won-t-Stop-Dreaming/translation/french">Traduction en français par Benjamin.P</a>
+							<p "><video width=" 450px" height="350px" src="videos/final render.mov" controls></video>
+							</p>
+							<a
+								href="https://www.musixmatch.com/lyrics/Pinkzebra-feat-Benji-Jackson/We-Won-t-Stop-Dreaming/translation/french">Traduction
+								en français par Benjamin.P</a>
 						</div>
 					</div>
 
@@ -93,7 +102,7 @@ switchAd();
 						<p class="meta">Posted by <a href="#">Tetsuya</a> on thursday 30 2016
 							&nbsp;&bull;&nbsp; </a> &nbsp;&bull;&nbsp;</a></p>
 						<div class="entry">
-							<p><img src="images/p7.jpg"  /></p>
+							<p><img src="images/p7.jpg" /></p>
 						</div>
 					</div>
 
@@ -102,7 +111,7 @@ switchAd();
 						<p class="meta">Posted by <a href="#">Tetsuya</a> on thursday 30 2016
 							&nbsp;&bull;&nbsp; </a> &nbsp;&bull;&nbsp;</a></p>
 						<div class="entry">
-							<p><img src="images/p3.jpg"  /></p>
+							<p><img src="images/p3.jpg" /></p>
 						</div>
 					</div>
 
@@ -111,7 +120,7 @@ switchAd();
 						<p class="meta">Posted by <a href="#">Tetsuya</a> on thursday 3O 2016
 							&nbsp;&bull;&nbsp; </a> &nbsp;&bull;&nbsp;</a></p>
 						<div class="entry">
-							<p><img src="images/p5.jpg"  /></p>
+							<p><img src="images/p5.jpg" /></p>
 						</div>
 					</div>
 
@@ -120,7 +129,7 @@ switchAd();
 						<p class="meta">Posted by <a href="#">Tetsuya</a> on thursday 29 2016
 							&nbsp;&bull;&nbsp; </a> &nbsp;&bull;&nbsp;</a></p>
 						<div class="entry">
-							<p><img src="images/p4.jpg"  /></p>
+							<p><img src="images/p4.jpg" /></p>
 						</div>
 					</div>
 
@@ -129,7 +138,7 @@ switchAd();
 						<p class="meta">Posted by <a href="#">Tetsuya</a> on thursday 29 2016
 							&nbsp;&bull;&nbsp; </a> &nbsp;&bull;&nbsp;</a></p>
 						<div class="entry">
-							<p><img src="images/p2.jpg"  /></p>
+							<p><img src="images/p2.jpg" /></p>
 						</div>
 					</div>
 
@@ -138,7 +147,7 @@ switchAd();
 						<p class="meta">Posted by <a href="#">Tetsuya</a> on thursday 29 2016
 							&nbsp;&bull;&nbsp; </a> &nbsp;&bull;&nbsp;</a></p>
 						<div class="entry">
-							<p><img src="images/p1.jpg"  /></p>
+							<p><img src="images/p1.jpg" /></p>
 						</div>
 					</div>
 
@@ -147,91 +156,130 @@ switchAd();
 						<p class="meta">Posted by <a href="#">Tetsuya</a> on thursday 29 2016
 							&nbsp;&bull;&nbsp; </a> &nbsp;&bull;&nbsp;</a></p>
 						<div class="entry">
-							<p><img src="images/p6.jpg"  /></p>
+							<p><img src="images/p6.jpg" /></p>
 						</div>
 					</div>
 
 					<div style="clear: both;">&nbsp;</div>
 				</div>
 				<!-- fin du #content -->
-                <div id="sidebar">
-                    <ul>
-                        <li>
-                             <h2>Infos-flash</h2>
-                             <div class="wrapper">
-            
-                                <div class="card radius shadowDepth1">
-                                    <div class="card__image border-tlr-radius">
-                                        <img src="http://imgur.com/D1RWvw4.jpg" width="400" height="200" alt="image" class="border-tlr-radius">
-                                </div>
+				<div id="sidebar">
+					<ul>
+						<li>
+							<h2>Infos-flash</h2>
+							<div class="wrapper">
 
-                                <div class="card__content card__padding">
-                                    <div class="card__share">
-                                        <div class="card__social">  
-                                            <a class="share-icon facebook" href="https://www.facebook.com/profile.php?id=100013241347100"><span class="fa fa-facebook"></span></a>
-                                            <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
-                                            <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
-                                        </div>
+								<div class="card radius shadowDepth1">
+									<div class="card__image border-tlr-radius">
+										<img src="http://imgur.com/D1RWvw4.jpg" width="400" height="200" alt="image"
+											class="border-tlr-radius">
+									</div>
 
-                                        <a id="share" class="share-toggle share-icon" href="https://www.facebook.com/profile.php?id=100013241347100"></a>
-                                    </div>
+									<div class="card__content card__padding">
+										<div class="card__share">
+											<div class="card__social">
+												<a class="share-icon facebook"
+													href="https://www.facebook.com/profile.php?id=100013241347100"><span
+														class="fa fa-facebook"></span></a>
+												<a class="share-icon twitter" href="#"><span
+														class="fa fa-twitter"></span></a>
+												<a class="share-icon googleplus" href="#"><span
+														class="fa fa-google-plus"></span></a>
+											</div>
 
-                                    <div class="card__meta">
-                                        <a href="#">Web Streaming</a>
-                                        <time>27 février</time>
-                                    </div>
+											<a id="share" class="share-toggle share-icon"
+												href="https://www.facebook.com/profile.php?id=100013241347100"></a>
+										</div>
 
-                                    <article class="card__article">
-                                        <h1><a href="#">MadaDane</a></h1>
+										<div class="card__meta">
+											<a href="#">Web Streaming</a>
+											<time>27 février</time>
+										</div>
 
-                                        <p> Le site Web MadaDane est en cours de développement. Actuellement en build version.</p>
-                                    </article>
-                                </div>
+										<article class="card__article">
+											<h1><a href="#">MadaDane</a></h1>
 
-                                <div class="card__action">
-                    
-                                    <div class="card__author">
-                                        <img src="http://imgur.com/7DbgY16.gif" width="50px" height="50px" alt="user">
-                                        <div class="card__author-content">
-                                           By <a href="#">Benjamin.P</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                       </li>
-                        <li>
-                            <h2>Tchat</h2>
-                            <ul>
-                                <script id="cid0020000141377380922" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 290px;height: 311px;">{"handle":"madatchat","arch":"js","styles":{"b":100,"c":"000000","d":"000000","l":"FFFFFF","m":"FFFFFF","p":"10","r":100,"fwtickm":1}}</script>
-                            </ul>
-                        </li>
-                        <li>
-                            <h2>Radio</h2>
-                            <ul>
-                                <script>(function (win, doc, script, source, objectName) { (win.RadionomyPlayerObject = win.RadionomyPlayerObject || []).push(objectName); win[objectName] = win[objectName] || function (k, v) { (win[objectName].parameters = win[objectName].parameters || { src: source, version: '1.1' })[k] = v; }; var js, rjs = doc.getElementsByTagName(script)[0]; js = doc.createElement(script); js.async = 1; js.src = source; rjs.parentNode.insertBefore(js, rjs); }(window, document, 'script', 'https://www.radionomy.com/js/radionomy.player.js', 'radplayer'));
-                                    radplayer('url', 'animeextremonet');
-                                    radplayer('type', 'medium');
-                                    radplayer('autoplay', '0');
-                                    radplayer('volume', '50');
-                                    radplayer('color1', '#000000');
-                                    radplayer('color2', '#ffffff');
-                                </script>
-                                <div style="" class="radionomy-player">  </div>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- fin du #sidebar -->
+											<p> Le site Web MadaDane est en cours de développement. Actuellement en
+												build version.</p>
+										</article>
+									</div>
+
+									<div class="card__action">
+
+										<div class="card__author">
+											<img src="http://imgur.com/7DbgY16.gif" width="50px" height="50px"
+												alt="user">
+											<div class="card__author-content">
+												By <a href="#">Benjamin.P</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h2>Tchat</h2>
+							<ul>
+								<script id="cid0020000141377380922" data-cfasync="false" async
+									src="//st.chatango.com/js/gz/emb.js" style="width: 290px;height: 311px;">
+									{
+										"handle": "madatchat",
+										"arch": "js",
+										"styles": {
+											"b": 100,
+											"c": "000000",
+											"d": "000000",
+											"l": "FFFFFF",
+											"m": "FFFFFF",
+											"p": "10",
+											"r": 100,
+											"fwtickm": 1
+										}
+									}
+								</script>
+							</ul>
+						</li>
+						<li>
+							<h2>Radio</h2>
+							<ul>
+								<script>
+									(function (win, doc, script, source, objectName) {
+										(win.RadionomyPlayerObject = win.RadionomyPlayerObject || []).push(objectName);
+										win[objectName] = win[objectName] || function (k, v) {
+											(win[objectName].parameters = win[objectName].parameters || {
+												src: source,
+												version: '1.1'
+											})[k] = v;
+										};
+										var js, rjs = doc.getElementsByTagName(script)[0];
+										js = doc.createElement(script);
+										js.async = 1;
+										js.src = source;
+										rjs.parentNode.insertBefore(js, rjs);
+									}(window, document, 'script', 'https://www.radionomy.com/js/radionomy.player.js', 'radplayer'));
+									radplayer('url', 'animeextremonet');
+									radplayer('type', 'medium');
+									radplayer('autoplay', '0');
+									radplayer('volume', '50');
+									radplayer('color1', '#000000');
+									radplayer('color2', '#ffffff');
+								</script>
+								<div style="" class="radionomy-player"> </div>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- fin du #sidebar -->
 				<div style="clear: both;">&nbsp;</div>
 			</div>
 		</div>
 	</div>
 	<!-- fin du #page -->
-</div>
-<div id="footer">
-	<p>&copy; 2016 All Rights Reserved By <a style="color: #3fa9f5;" href="#">MadaMadaDane</a> .</p>
-</div>
-<!-- fin du #footer -->
+	</div>
+	<div id="footer">
+		<p>&copy; 2016 All Rights Reserved By <a style="color: #3fa9f5;" href="#">MadaMadaDane</a> .</p>
+	</div>
+	<!-- fin du #footer -->
 </body>
+
 </html>
